@@ -1,0 +1,11 @@
+name: Distribute Assets
+description: Distribute your website assets quickly on a CDN after a new deployment
+author: RavSam Web Solutions
+inputs:
+  sitemap_url:
+    description: Your website's sitemap url
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
